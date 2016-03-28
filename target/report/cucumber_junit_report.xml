@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0.185669">
+<testcase classname="Book Search" name="Search books by publication year" time="0.185669">
+<skipped><![CDATA[Given a book with the title 'One good book', written by 'Anonymous', published in 2013.passed
+And another book with the title 'Some other book', written by 'Some Author', published in 2014.passed
+And another book another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 2007.passed
+When the customer searches the books published between 2010 and 2014 years..undefined
+Then 2 books should have been found.........................................skipped
+And Book 1 should have the title 'One good book'............................skipped
+And Book 2 should have the title 'Some other book'..........................skipped
+]]></skipped>
+</testcase>
+</testsuite>
